@@ -4,6 +4,9 @@ Automated Timesheet Filling For Sales Force
 
 Format of Excel File Attached
 
+![image](https://user-images.githubusercontent.com/18065155/169826158-b19b1e6d-5f1b-4d32-b8b8-713c7cee3fc5.png)
+
+
 Need to manually Login. Automated Login Not Working
 
 After all the tasks are added. We need to manually click submit for approval.
