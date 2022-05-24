@@ -32,6 +32,8 @@ class timesheet:
 def getChromeDriver(showBrowser: bool = False, disableExtension: bool = False, noSandBox: bool = False):
     driver_path = "./chromedriver"
     chrome_options = webdriver.ChromeOptions()
+    dir_path = os.getcwd()
+    chrome_options.add_argument(f'user-data-dir={dir_path}/selenium')
     if(showBrowser == True):
         chrome_options.add_argument("--headless")
     if(disableExtension == True):
